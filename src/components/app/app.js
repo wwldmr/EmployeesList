@@ -7,11 +7,11 @@ import EmployeesAddForm from '../employees-add-form/employees-add-form';
 import './app.css';
 
 function App() {
-  //data from server imitationS
+  //data from server imitation
   const data = [
-    {name: 'qwe', salary: 321, key: 1, increase: false},
-    {name: 'asd', salary: 123, key: 2, increase: true},
-    {name: 'zxc', salary: 213, key: 3, increase: false},
+    {name: 'qwe', salary: 321, increase: false},
+    {name: 'asd', salary: 123, increase: true},
+    {name: 'zxc', salary: 213, increase: false},
   ]
 
   return (
